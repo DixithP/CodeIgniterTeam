@@ -30,6 +30,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     });
 
     </script>
+    <style>
+    *{
+      padding:0px;
+      margin:0px;
+      border:0px;
+    }
+      #header{
+        height:40px;
+        width:900px;
+        background:#666666;
+        color:white;
+        padding: 20px;
+      }
+      #header h2{
+        display:inline-block;
+      }
+      #header h3{
+        display:inline-block;
+        margin-left: 500px;
+      }
+      #left_box{
+        border:1px solid black;
+        width: 150px;
+        padding: 10px 10px 10px 20px;
+      }
+
+      #left_box input{
+        border: 1px solid #CCCCCC;
+      }
+      #left_box p{
+        font-weight: 600;
+      }
+
+    </style>
 
     <title></title>
   </head>
@@ -40,11 +74,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <div id = "header">
       <h2>Dojo eCommerce</h2>
       <h3>Shopping Cart(<?php ; ?>)</h3>
-      <div>
+    </div>
     <!-- Left Box-->
-    <div>
+    <div id = "left_box">
     <input id = "search" type = "text" name ="search_box" placeholder = "product name">
     <img src  ="random.png" alt = "">
+
     <p>Categories</p>
     <ul>
       <!--Generate dynamically w/ AJAX-->

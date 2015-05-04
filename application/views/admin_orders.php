@@ -21,10 +21,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 
     </script>
     <title></title>
+    <style>
+      #head{
+        width:960px;
+        height:150px;
+        background: #EEEEEE;
+      }
+
+    </style>
   </head>
   <body>
     <!-- header -->
-    <div>
+    <div id = "head">
       <h3>Dashboard</h3>
       <a href = "">Orders</a>
       <a href = "">Products</a>
