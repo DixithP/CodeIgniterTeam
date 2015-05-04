@@ -24,7 +24,7 @@ class Mains extends CI_Controller {
    }
 	public function index()
 	{
-		$this->load->view('index');
+		$this->load->view('admin_single_product');
 	}
 
   public function register(){
