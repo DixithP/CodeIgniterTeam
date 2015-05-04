@@ -35,39 +35,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
       <input id = "search" type = "text" name ="search_box" placeholder = "product name">
       <img src  ="random.png" alt = "">
 
-      <form id = "show_type">
-        <select>
-          <option name = "show_all">Show All</option>
-          <option name = "order">Order in</option>
-          <option name = "process">Processing</option>
-          <option name = "ship">Shipped</option>
-          <option name = "cancelled">Cancelled</option>
-        </select>
-      </form>
+
+            <form id = "Add_New">
+              <input type = "submit" value= "Add New Product"></input>
+            </form>
+
+
     </div>
     <!-- main table -->
     <table>
       <tr>
-        <td>Order Id</td>
+        <td>Picture</td>
+        <td>Id</td>
         <td>Name</td>
-        <td>Date</td>
-        <td>Billing Address</td>
-        <td>Total</td>
-        <td>Status</td>
+        <td>Inventory Count</td>
+        <td>Quantity Sold</td>
+        <td>Action</td>
       </tr>
       <tr> <!--generate dynamically -->
-        <td>100</td>
-        <td>Bob</td>
-        <td>Date</td>
-        <td>123 Dojo Wa Bellevue WA 98005</td>
-        <td>149.99</td>
+        <td><img src = "random.png" alt = ""></td>
+        <td>1</td>
+        <td>T-shirt</td>
+        <td>124</td>
+        <td>300</td>
         <td>
-          <select>
-            <option name = "order">Order in</option>
-            <option name = "process">Processing</option>
-            <option name = "ship">Shipped</option>
-            <option name = "cancelled">Cancelled</option>
-          </select>
+          <a href = "">edit</a>
+          <a href = "">delete</a>
         </td>
       </tr>
     </table>
